@@ -5,6 +5,8 @@
  */
 package practica1git;
 
+import java.util.Scanner;
+
 /**
  *
  * @author miguel
@@ -15,7 +17,13 @@ public class Practica1GIt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola mundo weon :v ");
+         double radio, area;         
+         System.out.println("HALLA EL AREA DE UN CIRCULO");
+         System.out.print("Ingresar el radio r = ");
+         Scanner scanner = new Scanner(System.in);
+         radio = scanner.nextFloat();
+         area = (3.1416*radio*radio);            
+         System.out.println("Area = " + area);   
     }
     
 }
