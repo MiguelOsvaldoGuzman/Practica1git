@@ -22,7 +22,7 @@ public class Practica1GIt {
          System.out.print("Ingresar el radio r = ");
          Scanner scanner = new Scanner(System.in);
          radio = scanner.nextFloat();
-         area = (3.1416*radio*radio);            
+         area = Math.PI*Math.pow(radio,2);            
          System.out.println("Area = " + area);   
     }
     
